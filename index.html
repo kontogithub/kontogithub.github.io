@@ -3,13 +3,20 @@
     <head>
         <title>Projekt Test</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
     <body>
-        <p>Zostaniesz automatycznie przeniesiony na inna strone</p>
+        <div class="napis_srodek">
+           <div class="obrazek" style="height:280px;width:300px"></div>
+            <p class="napis">Cooking in progress !!!</p>
+        </div>
         <script>
             setTimeout(function(){
-                window.location.href="https://www.youtube.com/channel/UCYrHnLtV9Zm4wmdfZN3mPtw"; // Adres przeniesienia
-            }, 3000); // czas delay 3 sek
+                window.location.href="https://www.youtube.com/channel/UCYrHnLtV9Zm4wmdfZN3mPtw"; // The URL that will be redirected too.
+            }, 3000); // The bigger the number the longer the delay.
         </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/animation.js"></script>    
     </body>
+    
 </html>

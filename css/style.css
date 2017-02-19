@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800);
+
+.napis_srodek {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 13em;
+    
+}
+
+.napis_srodek > .obrazek {
+    width: 250px;
+    background-image: url(../img/cooking.gif);
+    height: 250px;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+.napis_srodek > p.napis {
+    font-family: 'Raleway';
+    display: table;
+	text-align: center;
+	vertical-align: middle;
+    margin: 0 auto;
+    font-size: 30px;
+    text-transform: uppercase;
+  position: relative;
+  top: 0.60em;  
+  display: inline-block;
+  text-transform: uppercase; 
+  letter-spacing: 0.5em;
+  opacity: 0.8;
+  transform: rotateX(-90deg);
+  animation: letterDrop 3s ease 1 normal forwards;
+}
+
+@keyframes letterDrop {
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 0.8;
+        top: 3.75em;
+        transform: rotateX(-360deg);
+    }
+    100% {
+        opacity: 1;
+        top: 4.50em;
+        transform: rotateX(360deg);
+    }
+}
+
+
+span:nth-child(2n) {
+  color: #1ac096;
+}
